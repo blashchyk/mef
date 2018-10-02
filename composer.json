@@ -1,0 +1,57 @@
+{
+    "name": "itmaster/cms-base",
+    "description": "It Master CMS base project",
+    "keywords": ["yii2", "framework", "cms"],
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": ">=2.0.6",
+        "yiisoft/yii2-bootstrap": "^2.0",
+        "yiisoft/yii2-swiftmailer": "*",
+        "yiisoft/yii2-jui": "^2.0",
+        "yiisoft/yii2-imagine": "^2.0",
+        "yiisoft/yii2-authclient": "*",
+        "yiisoft/yii2-coding-standards": "2.*",
+        "kartik-v/bootstrap-fileinput": "4.3.6",
+        "kartik-v/yii2-grid": "@dev",
+        "kartik-v/yii2-sortable": "*",
+        "kartik-v/yii2-sortable-input": "*",
+        "kartik-v/yii2-mpdf": "1.*",
+        "kartik-v/yii2-editable": "^1.7",
+        "kartik-v/yii2-widget-fileinput": "@dev",
+        "kartik-v/yii2-widget-datepicker": "*",
+        "kartik-v/yii2-datecontrol": "=1.9.5",
+        "kartik-v/yii2-widget-timepicker": "*",
+        "kartik-v/yii2-widget-depdrop": "@dev",
+        "kartik-v/yii2-widget-select2": "@dev",
+        "kartik-v/yii2-widget-typeahead": "*",
+        "kartik-v/yii2-slider": "*",
+        "kartik-v/yii2-tree-manager": "@dev",
+        "paypal/rest-api-sdk-php": "*",
+        "2amigos/yii2-ckeditor-widget": "~1.0",
+        "2amigos/yii2-gallery-widget": "~1.0",
+        "wbraganca/yii2-dynamicform": "dev-master",
+        "phpdocumentor/phpdocumentor": "2.*",
+        "moonlandsoft/yii2-phpexcel": "*",
+        "creocoder/yii2-nested-sets": "^0.9.0",
+        "hscstudio/yii2-export": "*",
+        "bupy7/xml-constructor": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ruleset name="Yii2 App Basic Standard">
+    <description>Yii2 App Basic coding standard</description>
+
+    <exclude-pattern>/runtime/*</exclude-pattern>
+    <exclude-pattern>/web/assets/*</exclude-pattern>
+    <exclude-pattern>/vendor/*</exclude-pattern>
+    <exclude-pattern>/requirements.php</exclude-pattern>
+
+    <rule ref="vendor/yiisoft/yii2-coding-standards/Yii2"/>
+
+    <rule ref="PSR1.Classes.ClassDeclaration.MissingNamespace">
+        <exclude-pattern>/migrations/*</exclude-pattern>
+    </rule>
+    <rule ref="Squiz.Classes.ValidClassName.NotCamelCaps">
+        <exclude-pattern>/migrations/*</exclude-pattern>
+    </rule>
+</ruleset>

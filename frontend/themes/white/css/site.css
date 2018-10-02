@@ -1,0 +1,62 @@
+.navbar-nav.navbar-right.nav > li > a {
+  font-weight: 600;
+}
+
+.main-nav.navbar-nav.navbar-right.nav > li:nth-last-child(1) > a,
+.main-nav.navbar-nav.navbar-right.nav > li:nth-last-child(2) > a {
+  background-image: linear-gradient(to bottom, #ec7263 0%, #db6152 100%);
+  color: white;
+  margin-top: 23.5px;
+  border: 1px solid transparent;
+  padding: 8px 16px;
+  border-radius: 3px;
+}
+
+.main-nav.navbar-nav.navbar-right.nav > li:nth-last-child(2) > a {
+  background-image: linear-gradient(to bottom, #4dbce9 0%, #3cabd8 100%);
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.main-nav.navbar-nav.navbar-right.nav {
+  padding-right: 20px;
+}
+
+.feedback-block .container {
+  padding:0 30px;
+}
+
+img.avatar {
+  max-width: 100px;
+}
+
+img.img-preview {
+  max-width: 160px;
+  max-height: 160px;
+}
+
+.file-input .file-preview {
+  border-radius: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+.file-input .file-preview .file-preview-frame {
+  margin: 0px;
+  height: 100px;
+}
+
+.file-preview-frame:not(.file-preview-error):hover {
+  box-shadow: 2px 2px 5px 0 #a2958a;;
+}
+.order-list .table th {
+  color: #4dbce9;
+}
+.order-list .skip-export.kv-expand-icon-cell:hover,
+.order-list .skip-export.kv-expand-icon-cell:focus {
+  background-color: #fff !important;
+}
+.range-wrapper .slider-horizontal {
+  width: calc(100% - 16px);
+  margin: 35px 8px 0;
+}

@@ -1,0 +1,13 @@
+.token-alert {
+   display: none;
+}
+.token-index-wrap {
+    padding-top: 20px;
+}
+.reset-api-button-wrap {
+    margin-top: 20px;
+}
+.api-access-token {
+    padding: 5px;
+    background-color: #e5e5f2;
+}

@@ -1,0 +1,60 @@
+.main-menu {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+}
+.form-control[readonly] {
+    background-color: #fff;
+}
+.center {
+    margin: 0 auto;
+}
+.table.table-striped th {
+    background-color: #337ab7;
+    color: #fff;
+}
+.table.table-striped th a {
+    color: #fff;
+}
+.table.table-striped tbody tr th:first-child {
+    width: 23%;
+}
+img.avatar {
+    max-width: 100px;
+}
+img.img-preview {
+    max-width: 160px;
+    max-height: 160px;
+}
+.file-input .file-preview {
+    border-radius: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.file-input .file-preview .file-preview-frame {
+    margin: 0px;
+    height: 100px;
+}
+.file-preview-frame:not(.file-preview-error):hover {
+    box-shadow: 2px 2px 5px 0 #a2958a;;
+}
+.note {
+    color: #999;
+    margin: 1em 0;
+}
+.auth-clients {
+    margin: 0px;
+}

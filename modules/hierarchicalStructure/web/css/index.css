@@ -1,0 +1,8 @@
+.maintenance-text {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0,0,0, 0.4);
+    color: #fff;
+    margin-top: 10%;
+    font-weight: bold;
+}
